@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex2 {
 
 	public static void main(String[] args) {
-		int idade = 0, contadorMenor = 0, contadorMaior = 0, contador;
+		int idade = 0, contadorMenor = 0, contadorMaior = 0;
 		Scanner leia = new Scanner(System.in);
 		System.out.println("Digite uma idade: ");
 		while (idade >= 0) {

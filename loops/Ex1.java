@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ex1 {
 
 	public static void main(String[] args) {
+		List<Double> notas = new ArrayList<D>();
 		Scanner leia = new Scanner(System.in);
 		int numMenor, numMaior, contador;
 		System.out.println("Digite o primeiro número (menor): ");
