@@ -7,7 +7,7 @@ public class Funcionario {
     private int tempoDeContribuicao;
 
     public void visualiza() {
-        System.out.println(nome + " " + cargo + " " + idade + " " + tempoDeContribuicao);
+        System.out.println("Nome: " + getNome() + " Cargo: " +  getCargo()  + " Idade: " +  getIdade() +  " Tempo de contribuicao: " + getTempoDeContribuicao());
     }
 
     public Funcionario(String nome, String cargo, int idade, int tempoDeContribuicao) {
