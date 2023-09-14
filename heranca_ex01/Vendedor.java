@@ -1,13 +1,13 @@
 package heranca_ex01;
 
 public class Vendedor extends Funcionario {
-    private String numeroDeVendas;
+    private int numeroDeVendas;
 
-    public String getNumeroDeVendas() {
+    public int getNumeroDeVendas() {
         return numeroDeVendas;
     }
 
-    public void setNumeroDeVendas(String numeroDeVendas) {
+    public void setNumeroDeVendas(int numeroDeVendas) {
         this.numeroDeVendas = numeroDeVendas;
     }
 
